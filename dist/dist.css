@@ -1,8 +1,8 @@
 :root {
   --background: #303446;
   --secondary-background: #414559;
-  --current-line: #949cbb;
-  --foreground: #8caaee;
+  --current-line: #737994;
+  --foreground: #c6d0f5;
   --comment: #81c8be;
   --red: #e78284;
   --orange: #ef9f76;
@@ -11,9 +11,9 @@
   --purple: #ca9ee6;
   --cyan: #b59b70;
   --yellow: #e5c890;
-  --bar-color: rgba(98, 104, 128);
+  --bar-color: rgba(81, 87, 109);
   --darker-background: rgb(35, 38, 52);
-  --darker-background-border: rgb(41, 44, 60);
+  --darker-background-border: rgb(148, 156, 187);
 
 
   --sn-stylekit-accessory-tint-color-1: var(--purple);
