@@ -1,2 +1,2 @@
-# SN-Catppuccin-Frapp--theme
-Catpuccin Frappe theme for standard notes 
+# SN-Catppuccin-Frappe-theme
+Catpuccin Frappe theme for standard notes

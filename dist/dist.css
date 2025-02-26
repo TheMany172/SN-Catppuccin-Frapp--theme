@@ -1,0 +1,80 @@
+:root {
+  --background: #232634;
+  --secondary-background: #626880;
+  --current-line: #949cbb;
+  --foreground: #8caaee;
+  --comment: #81c8be;
+  --red: #e78284;
+  --orange: #ef9f76;
+  --green: #a6d189;
+  --pink: #f4b8e4;
+  --purple: #ca9ee6;
+  --cyan: #b59b70;
+  --yellow: #e5c890;
+  --bar-color: rgba(98, 104, 128);
+  --darker-background: rgb(35, 38, 52);
+  --darker-background-border: rgb(41, 44, 60);
+
+
+  --sn-stylekit-accessory-tint-color-1: var(--purple);
+  --sn-stylekit-accessory-tint-color-2: var(--pink);
+  --sn-stylekit-accessory-tint-color-3: var(--orange);
+  --sn-stylekit-accessory-tint-color-4: var(--cyan);
+  --sn-stylekit-accessory-tint-color-5: var(--green);
+  --sn-stylekit-accessory-tint-color-6: var(--yellow);
+  --highlight-color: var(--comment);
+  --sn-component-foreground-color: var(--foreground);
+  --sn-component-background-color: var(--background);
+  --sn-component-foreground-highlight-color: var(--highlight-color);
+  --sn-component-outer-border-color: var(--comment);
+  --sn-component-inner-border-color: var(--foreground);
+  --sn-stylekit-shadow-color: var(--comment);
+  --sn-stylekit-info-color: var(--pink);
+  --sn-stylekit-info-contrast-color: var(--background);
+  --sn-stylekit-neutral-color: var(--purple);
+  --sn-stylekit-neutral-contrast-color: var(--foreground);
+  --sn-stylekit-success-color: var(--green);
+  --sn-stylekit-success-contrast-color: var(--background);
+  --sn-stylekit-warning-color: var(--orange);
+  --sn-stylekit-warning-contrast-color: var(--background);
+  --sn-stylekit-danger-color: var(--red);
+  --sn-stylekit-danger-contrast-color: var(--foreground);
+  --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
+  --sn-stylekit-background-color: var(--background);
+  --sn-stylekit-foreground-color: var(--foreground);
+  --sn-stylekit-border-color: var(--darker-background-border);
+  --sn-stylekit-contrast-background-color: var(--bar-color);
+  --sn-stylekit-contrast-foreground-color: var(--foreground);
+  --sn-stylekit-contrast-border-color: var(--footer-border);
+  --sn-stylekit-secondary-background-color: var(--secondary-background);
+  --sn-stylekit-secondary-foreground-color: var(--foreground);
+  --sn-stylekit-secondary-border-color: var(--darker-background-border);
+  --sn-stylekit-secondary-contrast-background-color: var(--current-line);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--foreground);
+  --sn-stylekit-secondary-contrast-border-color: var(--foreground);
+  --sn-stylekit-paragraph-text-color: var(--foreground);
+  --sn-desktop-titlebar-bg-color: var(--background);
+  --sn-desktop-titlebar-border-color: var(--comment);
+  --sn-desktop-titlebar-ui-color: var(--foreground);
+  --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
+  --sn-stylekit-scrollbar-track-border-color: var(--comment);
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
+  --sn-stylekit-grey-5: var(--highlight-color);
+  --sn-stylekit-grey-4-opacity-variant: var(--current-line);
+
+  --sn-stylekit-passive-color-4: #0e110c;
+  --sn-stylekit-passive-color-4-opacity-variant: #0000003d;
+  --sn-stylekit-passive-color-3: #67643d;
+  --sn-stylekit-passive-color-5: #080507;
+
+  --navigation-item-selected-background-color:var(--sn-stylekit-secondary-contrast-background-color);
+}
+
+.sn-component .sk-panel .sk-panel-footer .left {
+  color: var(--foreground);
+}
+
+#plus-editor label kbd {
+  background-color: var(--sn-stylekit-background-color);
+}

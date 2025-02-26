@@ -1,0 +1,23 @@
+{
+  "name": "Catpuccin-Frappe-theme",
+  "version": "0.0.1",
+  "main": "dist/dist.css",
+  "author": "TheMany",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sn": {
+    "name": "Catpuccin-Frappe",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "dist/dist.css",
+    "showInGallery": true
+  },
+    "scripts": {
+    "build": "webpack --entry ./src/main.scss --config ../theme.webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "webpack": "*"
+  }
+}
